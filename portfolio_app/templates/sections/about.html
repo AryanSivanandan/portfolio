@@ -1,0 +1,26 @@
+{% load static %}
+
+<div class="grid md:grid-cols-3 gap-12 items-center">
+
+  <!-- IMAGE -->
+  <div class="flex justify-center">
+    <img
+      src="{% static 'images/profile.jpeg' %}"
+      alt="Aryan Sivanandan"
+      class="w-48 h-48 rounded-full object-cover border border-gray-700 shadow-lg"
+    />
+  </div>
+
+  <!-- TEXT -->
+  <div class="md:col-span-2 text-gray-300">
+    <h2 class="text-3xl font-semibold mb-4">About Me</h2>
+
+    <p class="leading-relaxed text-gray-400">
+      I’m a final-year engineering student focused on backend systems and
+      data-driven applications. I enjoy building end-to-end systems — from
+      data ingestion to deployment — and care deeply about clean,
+      maintainable code.
+    </p>
+  </div>
+
+</div>

@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="flex">
+
+  {% include "partials/sidebar.html" %}
+
+  <main class="flex-1 ml-16">
+
+    <!-- HERO -->
+    <section id="home" class="min-h-screen flex items-center">
+      <div class="max-w-5xl mx-auto px-6">
+        {% include "sections/hero.html" %}
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+
+    <!-- ABOUT -->
+    <section id="about" class="py-20">
+      <div class="max-w-5xl mx-auto px-6">
+        {% include "sections/about.html" %}
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="py-20">
+      <div class="max-w-5xl mx-auto px-6">
+        {% include "sections/projects.html" %}
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="py-20">
+      <div class="max-w-5xl mx-auto px-6">
+        {% include "sections/experience.html" %}
+      </div>
+    </section>
+
+    <section id="skills" class="py-20">
+      <div class="max-w-5xl mx-auto px-6">
+        {% include "sections/skills.html" %}
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="py-20">
+      <div class="max-w-5xl mx-auto px-6">
+        {% include "sections/contact.html" %}
+      </div>
+    </section>
+
+  </main>
+</div>
+
+{% endblock %}
